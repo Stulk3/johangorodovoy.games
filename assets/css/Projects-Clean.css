@@ -6,7 +6,6 @@
 }
 
 .projects-clean {
-  color: #313437;
   background-color: #fff;
 }
 
@@ -53,7 +52,6 @@
   font-weight: bold;
   margin-top: 28px;
   margin-bottom: 8px;
-  color: inherit;
 }
 
 .projects-clean .item .description {

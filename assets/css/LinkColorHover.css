@@ -1,4 +1,4 @@
-a:hover {
+a:focus, a:hover, a:active {
   color: #b6b6b6;
 }
 

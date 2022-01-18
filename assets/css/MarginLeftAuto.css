@@ -6,3 +6,11 @@ ul {
   margin-left: auto !important;
 }
 
+#navcol-2 a.navbar-nav a.nav-item a.nav-link:hover {
+  color: #18bc9c;
+}
+
+Nav.navbar-light .navbar-nav .nav-link {
+  color: green;
+}
+

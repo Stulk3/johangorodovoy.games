@@ -1,0 +1,80 @@
+
+{
+    "en": {
+      
+    "brandName" :"JOHAN GORODOVOY",
+    "games" :"Games",
+    "about" :"About",
+    "Contact" :"Contact",
+    
+
+    
+    
+    
+    "MDC":"Mountain Dew Crusader",
+    "MDCArticle":"A story about creativity and life meaning",
+    
+    
+    
+    
+    
+   
+    "cite" :"My name is Johan, and I honestly love making games.",
+    "citeArticle" :"I currently live in Russia and I am studying university. I have a lot of creative hobbies - Photo, Video editing, UI design, Sound design and Scripting.",
+    
+    
+    
+    
+    
+  
+    "contactArticle":"In development... ",
+    "namePlaceholder":"But you can type something here...",
+    "emailPlaceholder":"...and here",
+    "textPlaceholder" :"Also try sending a message to yourself!",
+    "emailError":"Please enter a correct email address.",
+    "sendButton" : "Send",
+    
+    
+   
+    "donation":"Donation",
+    "donationTooltip":"Not yet!"
+    },
+    "ru": {
+       
+    "brandName":"ЙОХАН ГОРОДОВОЙ",
+    "games":"Игры",
+    "about":"Про меня",
+    "Contact":"Связаться,
+    
+    
+    
+    
+    
+    "MDC":"Маунтин Дью Крусейдер",
+    "MDCArticle" : "История о творчестве и смысле жизни.",
+    
+    
+    
+    
+    
+
+    "cite" :"Меня зовут Йохан и я невероятно люблю делать игры.",
+    "citeArticle":"Сейчас проживаю в России и учусь в университете. Увлекаюсь фото, видеомонтажем, дизайном интерфейсов, звуковым дизайном и написанием сценариев.",
+    
+    
+    
+    "Hello": "Привет!",
+    
+
+    "contactArticle":"В разработке... ",
+    "namePlaceholder":"Но вы можете написать что-то тут...",
+    "emailPlaceholder":"...и тут",
+    "textPlaceholder":"А ещё попробуйте отправить себе сообщение!",
+    "emailError":"Пожалуйста введите корректный почтовый адрес.",
+    "sendButton" : "Отправить",
+    
+
+    "donation":"Поддержать",
+    "donationTooltip":"Пока что нет!"
+    }
+}

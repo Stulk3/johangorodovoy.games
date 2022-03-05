@@ -78,12 +78,12 @@
     <section id="contact" class="contact-clean" style="background: rgb(32,34,40);color: rgb(32,34,40);">
         <h2 class="text-center" style="font-family: Montserrat, sans-serif;font-weight: bold;font-size: calc(30px + 2.5vw);color: rgb(255,255,255);margin-top: 10px;">Связаться</h2>
         <hr style="color: #ffffff;height: 6px;width: calc(70px + 20vw);">
-        <form method="post">
-            <h2 class="text-center">В разработке...&nbsp;</h2>
-            <div class="mb-3"><input class="form-control" type="text" placeholder="Но вы можете написать что-то тут..." name="name"></div>
-            <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="...и тут"><small class="form-text text-danger">Пожалуйста введите корректный почтовый адрес.</small></div>
-            <div class="mb-3"><textarea class="form-control" name="message" placeholder="А ещё попробуйте отправить себе сообщение!" rows="14"></textarea></div>
-            <div class="mb-3"><button class="btn btn-primary disabled" data-bs-toggle="tooltip" data-bss-tooltip="" type="submit" style="background: rgb(0,0,0);" disabled="" title="Not working too!">Отправить </button></div>
+        <form data-bss-recipient="9ab5660f1f30b9db47a2e403eb386b30">
+            <h2 class="text-center">Свяжитесь через имейл</h2>
+            <div class="mb-3"><input class="form-control" type="text" placeholder="Имя" name="name" required=""></div>
+            <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Имейл" required=""></div>
+            <div class="mb-3"><textarea class="form-control" name="message" placeholder="Сообщение" rows="14"></textarea></div>
+            <div class="mb-3"><button class="btn btn-primary" type="submit" style="background: rgb(0,0,0);" title="Not working too!">Отправить</button></div>
         </form>
     </section>
     <footer class="footer-basic">
@@ -94,6 +94,7 @@
         <p class="copyright">Johan Gorodovoy © 2022</p>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/stylish-portfolio.js"></script>
     <script src="assets/js/multilang.js"></script>

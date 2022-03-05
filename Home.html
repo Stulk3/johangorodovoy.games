@@ -78,12 +78,12 @@
     <section id="contact" class="contact-clean" style="background: rgb(32,34,40);color: rgb(32,34,40);">
         <h2 class="text-center" style="font-family: Montserrat, sans-serif;font-weight: bold;font-size: calc(30px + 2.5vw);color: rgb(255,255,255);margin-top: 10px;">Contact</h2>
         <hr style="color: #ffffff;height: 6px;width: calc(70px + 20vw);">
-        <form method="post">
-            <h2 class="text-center">In development...&nbsp;</h2>
-            <div class="mb-3"><input class="form-control" type="text" placeholder="But you can type something here..." name="name"></div>
-            <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="...and here"><small class="form-text text-danger">Please enter a correct email address.</small></div>
-            <div class="mb-3"><textarea class="form-control" name="message" placeholder="Also try sending a message to yourself!" rows="14"></textarea></div>
-            <div class="mb-3"><button class="btn btn-primary disabled" data-bs-toggle="tooltip" data-bss-tooltip="" type="submit" style="background: rgb(0,0,0);" disabled="" title="Not working too!">send </button></div>
+        <form data-bss-recipient="9ab5660f1f30b9db47a2e403eb386b30">
+            <h2 class="text-center">Contact via Email</h2>
+            <div class="mb-3"><input class="form-control" type="text" placeholder="Name" name="name" required=""></div>
+            <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email" required=""></div>
+            <div class="mb-3"><textarea class="form-control" name="message" placeholder="Message" rows="14" required=""></textarea></div>
+            <div class="mb-3"><button class="btn btn-primary" type="submit" style="background: rgb(0,0,0);" title="Not working too!">send </button></div>
         </form>
     </section>
     <footer class="footer-basic">
@@ -93,8 +93,8 @@
         </ul>
         <p class="copyright">Johan Gorodovoy © 2022</p>
     </footer>
-    <div id="spinner" class="spinner-parent"><span class="spinner-border textbody bg-white text-body shadow-lg" role="status" data-bs-toggle="tooltip" data-bss-tooltip="" title="Loading..."></span><span class="visually-hidden">Loading...</span></div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/stylish-portfolio.js"></script>
     <script src="assets/js/multilang.js"></script>

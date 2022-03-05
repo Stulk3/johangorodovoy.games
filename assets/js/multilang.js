@@ -82,4 +82,4 @@ var MultiLang = function(url, lang, onload)
 
 var multilang = new MultiLang('languages.json');
 multilang.setLanguage('fr');
-alert( multilang.get('Sound') );
+//alert( multilang.get('Sound') );

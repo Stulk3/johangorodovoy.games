@@ -4,7 +4,8 @@
         'games': 'Games',
         'about': 'About',
         'contact': 'Contact',
-        'nameParagraph': 'My name is Johan.',
+        'nameParagraph1': 'My name is',
+        'nameParagraph2': 'Johan.',
             'subParagraph': 'Currently live in Russia and study at university. I am fond of photo, video editing, UI design, sound design and gamedev.',
         'contactQuote': 'Contact me via email',
         'send':'Send Email',
@@ -17,14 +18,15 @@
         'soon':'Soon...',
         'frozen':"The project is frozen. Wait for news.",
         'jlwDate':"02.xx.2023",
-
+        'support':"Support Me",
       },
       'rus': {
         'title': 'ЙОХАН ГОРОДОВОЙ',
         'games': 'Игры',
         'about': 'Про меня',
         'contact': 'Связь',
-        'nameParagraph': 'Меня зовут Йохан.',
+        'nameParagraph1': 'Меня зовут',
+        'nameParagraph2': 'Йохан.',
         'subParagraph': 'Сейчас проживаю в России и учусь в университете. Увлекаюсь фото, видеомонтажем,UI дизайном, звуковым дизайном и разработкой игр.',
         'contactQuote': 'Свяжитесь через имейл',
         'send':'Отправить',
@@ -37,9 +39,10 @@
         'soon':'Скоро...',
         'frozen':"Проект заморожен. Ждите новостей.",
         'jlwDate':"xx.02.2023",
+        'support':"Поддержать",
       }
     };
-
+//document.cookie = "language=rus";
     // Process translation
     $(function() {
       $('.translate').click(function() {
@@ -48,6 +51,18 @@
         $('.lang').each(function(index, item) {
           //$(this).placeholder(arrLang[lang]  
           $(this).text(arrLang[lang][$(this).attr('key')]);
+            eng = true;
         });
       });
     });
+
+/*
+if(eng == true){
+    var lang = $(this).attr('id');
+        
+        $('.lang').each(function(index, item) {
+          //$(this).placeholder(arrLang[lang]  
+          $(this).text(arrLang[lang][$(this).attr('key')]);
+            });
+}
+*/

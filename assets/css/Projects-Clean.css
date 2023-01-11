@@ -39,7 +39,7 @@
 }
 
 .projects-clean .projects {
-  padding-bottom: 40px;
+  padding-bottom: Calc(40px + 2.5vh);
 }
 
 .projects-clean .item {
